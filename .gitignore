@@ -1,0 +1,7 @@
+# Cache and user config
+cache/
+config.json
+
+# Node.js Packages
+node_modules/
+package-lock.json
