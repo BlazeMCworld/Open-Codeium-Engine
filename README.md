@@ -9,6 +9,7 @@ It is meant to be used by IDEs or their extensions to integrate Codeium more eas
 - Context-Aware Ai Code Completions
 - Local Code Indexing
 - Semi-Context-Aware Ai Chat
+- Exclude files from being indexed
 
 ## Known Integrations
 
