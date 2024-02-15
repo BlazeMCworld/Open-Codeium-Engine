@@ -9,7 +9,7 @@ It is meant to be used by IDEs or their extensions to integrate Codeium more eas
 - Context-Aware Ai Code Completions
 - Local Code Indexing
 - Semi-Context-Aware Ai Chat
-- Exclude files from being indexed
+- Exclude files from being indexed or sent to Codeium.
 
 ## Known Integrations
 
@@ -24,4 +24,4 @@ It is meant to be used by IDEs or their extensions to integrate Codeium more eas
 
 ## Documentation
 
-For writing your own integration, see the [docs](DOCUMENTATION.md)
+For writing your own integration, or learning about features like the `.codeiumignore`, see the [docs](DOCUMENTATION.md).

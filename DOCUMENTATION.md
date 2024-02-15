@@ -128,3 +128,17 @@ The request payload for indexing files and directories is the same, just with on
 ```
 
 The response to this will be "ok";
+
+## .codeiumignore
+
+Users can specify files to be excluded inside their `.codeiumignore` file, which must be put into the current working directory.
+Each line of the file must be one of three types:
+- Comments: Lines starting with a `#`.
+- Ignore Statements:
+    - A path to a file or directory, relative to the current working directory.
+    - No leading or trailing slashes.
+    - Slashes must be `/` (not `\`)
+    - Can contain `*` which matches anything. 
+- Empty lines do nothing.
+For a basic example, you can view this repositories `.codeiumignore`.
+If the file was changed, the cwd needs to be re-sent, in order to apply the changes.
